@@ -27,15 +27,18 @@ export const RepoComms = ({ repoName }) => {
 
     return (
         <Container>
-            <h2>Commits for {commitsId}</h2>
-            <h4 onClick={handleBack}>
-                <IoIosArrowBack /> Go Back
-            </h4>
-            <ListGroup>
+            <div className='d-flex align-items-center my-3'>
+                <h4 onClick={handleBack} className='mb-0'>
+                    <IoIosArrowBack /> Go Back
+                </h4>
+                <h2 className='ms-3 mb-0'>Commits for {commitsId}</h2>
+
+            </div>
+            <ListGroup className='my-2'>
                 {
                     commits?.map((item, i) => {
                         return (
-                            <div key={i}>
+                            <div key={i} className='my-3'>
                                 <ListGroup.Item>
                                     {item?.commit?.message}
                                 </ListGroup.Item>
