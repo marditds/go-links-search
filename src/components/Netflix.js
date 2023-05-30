@@ -4,8 +4,6 @@ import { Container, Accordion, AccordionItem, ListGroup, ListGroupItem } from 'r
 import './Netflix.css';
 import { IoIosArrowBack } from 'react-icons/io'
 
-import AccordionHeader from 'react-bootstrap/esm/AccordionHeader';
-
 export const Netflix = () => {
 
     const [repos, setRepos] = useState([]);
