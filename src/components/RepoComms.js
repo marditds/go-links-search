@@ -40,16 +40,18 @@ export const RepoComms = ({ repoName }) => {
                         return (
                             <div key={i} className='my-3'>
                                 <ListGroup.Item>
-                                    {item?.commit?.message}
+                                    <strong>Commit message:</strong>
+                                    <br /> {item?.commit?.message}
                                 </ListGroup.Item>
                                 <ListGroup.Item>
-                                    {item?.author?.login}
+                                    <strong>Committer username:</strong>
+                                    <br /> {item?.author?.login}
                                 </ListGroup.Item>
                                 <ListGroup.Item>
-                                    {item?.sha}
+                                    <strong>Commit hash:</strong><br /> {item?.sha}
                                 </ListGroup.Item>
                                 <ListGroup.Item>
-                                    {item?.commit?.author?.date}
+                                    <strong> Date Created:</strong><br /> {item?.commit?.author?.date}
                                 </ListGroup.Item>
                             </div>
                         )

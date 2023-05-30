@@ -19,14 +19,15 @@ export const Repo = ({ repos }) => {
                 const sortedRepos = [...data].sort((a, b) => b.stargazers_count - a.stargazers_count);
                 setRepo(preVal => sortedRepos);
             });
-    }, []);
+    }, [repoName]);
+
 
 
 
     return (
         <div>Repo
             <Accordion >
-                {repo.map((rep, i) => {
+                {repos.map((rep, i) => {
                     return (
                         <Accordion.Item key={i}
                             eventKey={i}>
