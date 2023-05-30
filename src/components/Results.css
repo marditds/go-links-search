@@ -1,0 +1,8 @@
+.repo--link {
+    transition: 0.2s !important;
+}
+
+.repo--link:hover {
+    color: red !important;
+    text-decoration: underline !important;
+}
