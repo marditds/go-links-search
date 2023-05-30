@@ -1,0 +1,19 @@
+.form-control:focus {
+    background-color: rgb(255, 232, 232) !important;
+}
+
+.srch {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px !important;
+    border-radius: 5px !important;
+    background-color: white !important;
+    border: 1px solid rgb(75, 75, 75) !important;
+
+    transition: 0.3s;
+}
+
+.srch:hover {
+    color: rgb(110, 110, 110);
+    background-color: rgb(255, 232, 232) !important;
+}

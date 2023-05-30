@@ -1,0 +1,15 @@
+.accd--header>button {
+    display: flex !important;
+    justify-content: space-between !important;
+    width: 100% !important;
+    box-shadow: transparent !important;
+}
+
+.accd--header>button:focus {
+    box-shadow: transparent !important;
+    color: red;
+}
+
+.accd--header>button::after {
+    margin-left: 10px !important;
+}
