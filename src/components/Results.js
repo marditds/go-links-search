@@ -3,11 +3,6 @@ import { Link } from 'react-router-dom';
 
 export const Results = ({ results }) => {
 
-    // const [res, setRes] = useState([])
-
-    // if (!results) {
-    //     setRes(preVal => 'Organization Not Found.')
-    // }
 
     return (
         <div>
