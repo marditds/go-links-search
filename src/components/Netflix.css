@@ -8,6 +8,9 @@
 .accd--header>button:focus {
     box-shadow: transparent !important;
     color: red;
+    background-color: rgb(255, 211, 211) !important;
+    box-shadow: transparent !important;
+    outline: transparent !important;
 }
 
 .accd--header>button::after {
