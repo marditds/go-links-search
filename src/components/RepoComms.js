@@ -27,7 +27,7 @@ export const RepoComms = ({ repoName }) => {
 
     return (
         <Container>
-            <div className='d-flex align-items-center my-3'>
+            <div className='d-flex align-items-center mt-5 mb-2'>
                 <h4 onClick={handleBack} className='mb-0 backbtn' style={{ cursor: "pointer" }}>
                     <IoIosArrowBack className='backbtn' />
                 </h4>
