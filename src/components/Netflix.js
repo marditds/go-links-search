@@ -33,8 +33,8 @@ export const Netflix = () => {
         <Container>
 
             <div className='d-flex align-items-center mt-5 mb-3'>
-                <h4 className='mb-0' onClick={handleBack}>
-                    <IoIosArrowBack /> Go Back
+                <h4 className='mb-0' onClick={handleBack} style={{ cursor: "pointer" }}>
+                    <IoIosArrowBack className='backbtn' />
                 </h4>
 
                 <h2 className='mb-0 ms-3 text-start'>Netflix's Repositories

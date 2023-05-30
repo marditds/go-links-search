@@ -28,8 +28,8 @@ export const RepoComms = ({ repoName }) => {
     return (
         <Container>
             <div className='d-flex align-items-center my-3'>
-                <h4 onClick={handleBack} className='mb-0'>
-                    <IoIosArrowBack /> Go Back
+                <h4 onClick={handleBack} className='mb-0 backbtn' style={{ cursor: "pointer" }}>
+                    <IoIosArrowBack className='backbtn' />
                 </h4>
                 <h2 className='ms-3 mb-0'>Commits for {commitsId}</h2>
 
